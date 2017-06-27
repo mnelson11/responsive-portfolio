@@ -1,0 +1,209 @@
+
+	body{
+		background: url("https://www.toptal.com/designers/subtlepatterns/patterns/concrete-texture.png");   
+		color:#777777;
+		font-family: Arial;
+
+	}	 
+
+	.header{
+		height:80px;
+		background:white;
+		border-color:black;
+		border:5px;
+		border-bottom: 1px solid #dddddd;
+	}
+	h1{
+		color:white;
+		background: #4aaaa5;
+		width:50%;
+		height:66px;
+		text-align: center;
+		float:left;
+		border: 1px solid #dddddd;
+		margin: 10px;
+		font-family: georgia;
+	}
+
+	.page-list{
+		float:left;
+		width:40%;
+		margin:10px;
+		float: left;
+  
+	}
+	.list{
+		list-style-type: none;
+		display: inline;
+		display: block;
+	}
+
+	h2{
+		color:#4aaaa5;
+		padding:10px;
+		border-bottom: 1px solid #dddddd;
+	}
+	
+
+
+	.bio-box{
+		background: white;
+		height:300px;
+		width:650px;
+		border: 1px solid #dddddd;
+		margin: 10px;
+    	bottom: 270px;
+    	right: 650px;
+    	padding:10px;
+    	float:left;
+	}
+	.pic{float:left;
+		padding:10px;
+		}
+
+	.portfolio-container{
+		width: 500px;
+		background: white;
+		border:1px solid #dddddd;
+		padding: 10px;
+		
+		float:left;
+	}
+
+	.text1{text-align: center;
+		color:blue;}
+
+	.image1{    
+		width: 200px;
+    	text-align: center;
+    	background: url(http://lorempixel.com/output/technics-q-c-640-480-2.jpg);
+    	background-size: 100% auto;
+    	float: left;
+    	height: 150px;
+    	background-repeat: no-repeat;
+    	border:10px solid white;
+    	}
+.image2{    
+		width: 200px;
+    	text-align: center;
+    	background: url("http://lorempixel.com/output/technics-q-c-640-480-3.jpg");
+    	background-size: 100% auto;
+    	float: left;
+    	height: 150px;
+    	background-repeat: no-repeat;
+    	border:10px solid white;
+    	}
+.image3{    
+		width: 200px;
+    	text-align: center;
+    	background: url("http://lorempixel.com/output/technics-q-c-640-480-8.jpg");
+    	background-size: 100% auto;
+    	float: left;
+    	height: 150px;
+    	background-repeat: no-repeat;
+    	border:10px solid white;
+    	}
+.image4{    
+		width: 200px;
+    	text-align: center;
+    	background: url("http://lorempixel.com/output/technics-q-c-640-480-4.jpg");
+    	background-size: 100% auto;
+    	float: left;
+    	height: 150px;
+    	background-repeat: no-repeat;
+    	border:10px solid white;
+    	}
+.image5{    
+		width: 200px;
+    	text-align: center;
+    	background: url("http://lorempixel.com/output/technics-q-c-640-480-1.jpg");
+    	background-size: 100% auto;
+    	float: left;
+    	height: 150px;
+    	background-repeat: no-repeat;
+    	border:10px solid white;
+    	}
+
+
+
+
+	.portfolio-pic{
+		width:200px;
+		padding: 10px
+	}
+
+	.connect-box{
+		width:250px;
+		float: left;
+		border: 1px solid #dddddd;
+		margin:15px;
+		background: white;
+   		
+	}
+
+	.icon{width:75px;}
+
+	
+
+	
+
+	
+
+	/* Style inputs with type="text", select elements and textareas */
+	input[type=text], select, textarea {
+	    width: 90%; /* Full width */
+	    padding: 15px; /* Some padding */  
+	    border: 5px solid #ccc; /* Gray border */
+	    border-radius: 4px; /* Rounded borders */
+	    box-sizing: border-box; /* Make sure that padding and width stays in place */
+	    margin-top: 6px; /* Add a top margin */
+	    margin-bottom: 16px; /* Bottom margin */
+	    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+	}
+
+	/* Style the submit button with a specific background color etc */
+	input[type=submit] {
+	    background-color: #4CAF50;
+	    color: white;
+	    padding: 12px 20px;
+	    border: none;
+	    border-radius: 4px;
+	    cursor: pointer;
+	}
+
+	/* When moving the mouse over the submit button, add a darker green color */
+	input[type=submit]:hover {
+	    background-color: #45a049;
+	}
+
+	/* Add a background color and some padding around the form */
+	.container {
+	    border-radius: 5px;
+	    background-color: white;
+	    padding: 20px;
+	    float:left;
+	    margin: 20px;
+	    border:1px solid #dddddd;
+	}
+
+	    
+	
+	footer{
+		background: #666666;
+		position:fixed;
+		bottom: 0px;
+   		width:100%;
+   		text-align: center;
+   		height:25px;
+   		border-top:7px solid #4aaaa5;
+   		color:#ffffff;
+
+   	}
+	@media screen and (max-width:870px){
+		.wrapper{ width:500px; 
+				padding:10px;
+				margin:5px;}
+			}
+		
+	
+
