@@ -12,6 +12,7 @@
 		border-color:black;
 		border:5px;
 		border-bottom: 1px solid #dddddd;
+
 	}
 	h1{
 		color:white;
@@ -48,8 +49,7 @@
 
 	.bio-box{
 		background: white;
-		height:300px;
-		width:650px;
+		width:50%;
 		border: 1px solid #dddddd;
 		margin: 10px;
     	bottom: 270px;
@@ -62,7 +62,7 @@
 		}
 
 	.portfolio-container{
-		width: 500px;
+		width: 60%;
 		background: white;
 		border:1px solid #dddddd;
 		padding: 10px;
@@ -73,7 +73,7 @@
 	.text1{text-align: center;
 		color:blue;}
 
-	.image1{    
+.image1{    
 		width: 200px;
     	text-align: center;
     	background: url(http://lorempixel.com/output/technics-q-c-640-480-2.jpg);
@@ -133,7 +133,7 @@
 	}
 
 	.connect-box{
-		width:250px;
+		width:25%;
 		float: left;
 		border: 1px solid #dddddd;
 		margin:15px;
@@ -184,6 +184,7 @@
 	    float:left;
 	    margin: 20px;
 	    border:1px solid #dddddd;
+	    width:60%;
 	}
 
 	    
@@ -199,11 +200,19 @@
    		color:#ffffff;
 
    	}
-	@media screen and (max-width:870px){
-		.wrapper{ width:500px; 
+	@media screen and (max-width:980px){
+		.wrapper{ width:900px; 
 				padding:10px;
 				margin:5px;}
 			}
+	@media screen and (max-width:768px){
+		.wrapper{width:700px;}
+		}
 		
+	@media screen and (max-width:640px){
+
+		.header{position:static;}
+		.wrapper{width:600px;}
+	}
 	
 
