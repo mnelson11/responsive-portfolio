@@ -207,12 +207,14 @@
 			}
 	@media screen and (max-width:768px){
 		.wrapper{width:700px;}
+		.connect-box{width:100%;}
 		}
 		
 	@media screen and (max-width:640px){
 
 		.header{position:static;}
 		.wrapper{width:600px;}
+		.connect-box{width:100%;}
 	}
 	
 
